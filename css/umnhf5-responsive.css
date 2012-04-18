@@ -1,0 +1,293 @@
+/* @group UMN HTML5 template */
+
+@media screen and (min-width:960px) {
+	#umnhf-header,
+	#umnhf-footer {
+		background-color:#ccc;
+		margin:0 auto;
+		width:960px;
+	
+	}
+}
+
+@media screen and (max-width:959px) {
+	#umnhf-header,
+	#umnhf-footer {
+		background-color:#ccc;
+		margin:0 auto;
+		width:100%;
+	
+	}	
+}
+
+
+#umnhf-header *,
+#umnhf-footer * {
+	font:normal normal normal 11px/22px arial, verdana, sans-serif;
+}
+
+#umnhf-header div,
+#umnhf-footer div {
+	display:block;
+}
+
+/* @group Visually hidden h5bp.com/v */
+
+#umnhf-h-ml span,
+#umnhf-h-ql span,
+#umnhf-search label,
+#umnhf-f-bp h2 {
+	border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px;
+}
+
+/* @end */
+
+/* @group Links */
+
+#umnhf-header a, #umnhf-footer a {
+	color: #7a0019;
+	text-decoration: underline;
+}
+
+#umnhf-header a:hover,  	#umnhf-footer a:hover,
+	#umnhf-header a:focus,  #umnhf-footer a:focus,
+	#umnhf-header a:active, #umnhf-footer a:active {
+	color: #666;
+	text-decoration: underline;
+}
+
+/* @end */
+
+
+/* @group header */
+
+#umnhf-header input {
+	margin:0;padding:0;border:0px;
+}
+
+#umnhf-h-mast,
+#umnhf-h-ml,
+#umnhf-h-ql li,
+#umnhf-search {
+	background: transparent url(../img/html5-header-footer.gif) 0 0 no-repeat;
+}
+
+#umnhf-h-mast {
+	background-color: #7a0019;
+	background-position: 0 -124px;
+	background-repeat: repeat-x;
+	height:62px;
+	margin:0 auto;
+}
+@media screen and (max-width:644px) {
+#umnhf-h-mast {
+	height:40px;
+	}
+}
+
+/*Block M & wordmark 640px and above */
+#umnhf-h-ml {
+	display:block;
+	float:left;
+	height:62px;
+	width:320px;
+}
+
+@media screen and (max-width:644px) {
+#umnhf-h-ml {
+	display:block;
+	float:left;
+	height:40px;
+	width:233px;
+	background-position: 0 -232px;
+}
+}
+
+/* @group header: MyU and One Stop */
+
+#umnhf-h-ql {
+	float:right;
+	list-style:none;
+	margin:5px 10px 0 0;
+	width:156px;
+	padding:0;
+}
+
+#umnhf-h-ql li {
+	float:right;
+	height:25px;
+	margin-left:5px;
+	width:73px;
+}
+
+li#umnhf-h-myu {
+	background-position: 0 -208px;
+}
+
+li#umnhf-h-onestop {
+	background-position: -73px -208px;
+}
+
+@media screen and (max-width:644px) {
+li#umnhf-h-myu {
+	display:none;
+}
+
+li#umnhf-h-onestop {
+	display:none;
+}
+}
+
+#umnhf-h-ql a {
+	width:73px;
+	height:25px;
+	display:block;
+}
+
+/* @end */
+
+/* @group header: campus links */
+
+
+#umnhf-h-cl {
+	padding:0 10px 0 0;
+	text-align:right;
+}
+@media screen and (max-width:644px) {
+#umnhf-h-cl {
+	display:none !important;
+	}
+}
+
+#umnhf-h-cl h2 {
+	display:inline;
+}
+
+#umnhf-h-cl ul {
+	display:inline;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#umnhf-h-cl li {
+	display:inline;
+	margin-left: 10px;
+}
+
+/* @end */
+
+
+/* @group search */
+
+#umnhf-search {
+	background-position: 0 -186px;
+	clear: right;
+	float: right;
+	height: 22px;
+	margin: 5px 10px 0 0;
+	position: relative;
+	text-align: right;
+	width: 259px;
+}
+
+#umnhf-h-st {
+	border: 0;
+	color: #333;
+	left: 15px;
+	line-height: 11px;
+	position: absolute;
+	top: 3px;
+	width: 200px;
+}
+
+#umnhf-h-sb {
+	vertical-align: baseline;
+}
+
+@media screen and (max-width:644px) {
+#umnhf-search {
+	background:none;
+}
+#umnhf-h-st {
+	display:none;
+}
+}
+/* @end */
+
+/* @end */
+
+/* @group footer */
+
+/* @group footer: clearfix */
+	/* clearfix for footer h5bp.com/q */
+	#umnhf-footer:before, #umnhf-footer:after { content: ""; display: table; }
+	#umnhf-footer:after { clear: both; }
+	#umnhf-footer {zoom:1;}
+/* @end */
+
+
+#umnhf-footer h2 {
+	display:inline;
+}
+
+/* @group footer: copyright, updated */
+
+#umnhf-f-cl {
+	float:right;
+	margin:8px 10px 0 0;
+	text-align:right;
+	width:370px;
+}
+
+#umnhf-f-cl ul {
+	display:inline;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#umnhf-f-cl li {
+	display:inline;
+	padding-left:10px;
+}
+
+/* @end */
+
+/* @group footer: boilerplate */
+
+#umnhf-f-bp {
+	float:left;
+	margin:10px;
+}
+
+
+#umnhf-f-bp ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+
+}
+#umnhf-f-bp li {
+	line-height:18px;
+	display:block;
+}
+
+/* @end */
+
+/* @end */
+
+
+/* @end */
+@media screen and (min-width:645px) and (max-width:800px){
+	#umnhf-f-cl {width:233px;}
+	#umnhf-footer h2 {width:100%;float:right;margin:0;}
+}
+@media screen and (max-width:644px) {
+	#umnhf-h-ql {width:auto;}
+	#umnhf-search {width:45px;}
+	#copyright-eoee, #copyright-modified {display:none !important;}
+	#umnhf-f-bp {width:100%;}
+	#umnhf-f-bp ul {text-align:center;}
+	#umnhf-f-cl {display:none !important;}
+}
