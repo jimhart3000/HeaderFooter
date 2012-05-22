@@ -1,21 +1,5 @@
 /* @group UMN HTML5 template */
 
-#umnhf-footer {
-	background-color:#ededed; /*pete*/
-}
-
-#umnhf-header,
-#umnhf-h-cl {
-	background: #d88913; /* Old browsers */
-	background: -moz-linear-gradient(left,  #d88913 0%, #ffb829 55%, #ffb829 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#d88913), color-stop(55%,#ffb829), color-stop(100%,#ffb829)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left,  #d88913 0%,#ffb829 55%,#ffb829 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left,  #d88913 0%,#ffb829 55%,#ffb829 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(left,  #d88913 0%,#ffb829 55%,#ffb829 100%); /* IE10+ */
-	background: linear-gradient(left,  #d88913 0%,#ffb829 55%,#ffb829 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d88913', endColorstr='#ffb829',GradientType=1 ); /* IE6-9 */
-}
-
 @media screen and (min-width:960px) {
 	#umnhf-header,
 	#umnhf-footer {
